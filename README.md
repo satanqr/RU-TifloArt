@@ -16,6 +16,11 @@ This dataset was created as part of a research project focused on applying langu
 
 Data is provided in JSON format, with possibility to convert to JSONL for ML/LLM pipelines.
 
+## Download Images
+
+Due to size limitations, image files are hosted externally.  
+🔗 [Download full image archive from Google Drive](https://drive.google.com/link)
+
 ## Legal Status and License
 
 Most tiflo-commentaries are taken from **open sources**, mainly museum and cultural institution websites involved in digital accessibility projects. Texts are not always fully reworked and not all original materials have open licenses. Therefore:
