@@ -1,11 +1,11 @@
 # TIFLOART
-This dataset contains over 300 annotated records of artworks with professionally created audio descriptions in Russian, intended for training and fine-tuning multimodal AI models to improve accessibility for visually impaired users.
+This dataset contains over 200 annotated records of artworks with professionally created audio descriptions in Russian, intended for training and fine-tuning multimodal AI models to improve accessibility for visually impaired users.
 
 This dataset was created as part of a research project focused on applying language and multimodal models to generate adapted image descriptions (tiflo-commentaries) in Russian.
 
 # Dataset Composition
 
-- 300+ entries with visual and textual annotations of artworks  
+- 200+ entries with visual and textual annotations of artworks  
 - Descriptions: tiflo-commentaries authored by professionals  
 - Metadata: genres, styles, color palettes, spatial annotations  
 - Auxiliary dictionaries:  
