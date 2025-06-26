@@ -19,7 +19,7 @@ Data is provided in JSON format, with possibility to convert to JSONL for ML/LLM
 ## Download Images
 
 Due to size limitations, image files are hosted externally.  
-🔗 [Download full image archive from Google Drive](https://drive.google.com/link)
+🔗 [Download full image archive from Google Drive](https://1drv.ms/f/c/ed3738fa61281763/EjxyViEt0nhCoMYCnyMO6S4Be1BSW01IxhowvNt7VPPTvA?e=l7Jvos)
 
 ## Legal Status and License
 
