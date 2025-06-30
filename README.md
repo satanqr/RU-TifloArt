@@ -1,36 +1,32 @@
-# TIFLOART
-This dataset contains over 200 annotated records of artworks with professionally created audio descriptions in Russian, intended for training and fine-tuning multimodal AI models to improve accessibility for visually impaired users.
+# 🖼️ Датасет для автоматического тифлокомментирования произведений искусства
 
-This dataset was created as part of a research project focused on applying language and multimodal models to generate adapted image descriptions (tiflo-commentaries) in Russian.
+## Описание
 
-# Dataset Composition
+Этот датасет предназначен для задач автоматического тифлокомментирования и содержит:
 
-- 200+ entries with visual and textual annotations of artworks  
-- Descriptions: tiflo-commentaries authored by professionals  
-- Metadata: genres, styles, color palettes, spatial annotations  
-- Auxiliary dictionaries:  
-  - Definitions of art genres and styles  
-  - Color descriptions adapted for visually impaired users  
+- Более **200 произведений искусства**;
+- Для каждой картины представлены **тифлокомментарии** в **двух форматах**:
+  - Полная версия (развёрнутое описание);
+  - Краткая версия (сжатое описание).
 
-# Format
+Дополнительно для каждой картины указаны:
+- **Автор**;
+- **Название**;
+- **Жанр**;
+- **Художественный стиль**;
+- **Преобладающие цвета**;
+- **Передаваемые эмоции**.
 
-Data is provided in JSON format, with possibility to convert to JSONL for ML/LLM pipelines.
+## Разметка изображений
 
-## Download Images
+- Основные элементы на картинах размечены при помощи **bounding box** (прямоугольные рамки) и снабжены краткими описаниями.
+- ⚠️ *Позднее было осознано, что было бы точнее использовать полигоны для разметки, а не прямоугольники, но на момент создания датасета изменения внести уже было сложно.*
 
-Due to size limitations, image files are hosted externally.  
-🔗 [Download full image archive from Google Drive](https://1drv.ms/f/c/ed3738fa61281763/EjxyViEt0nhCoMYCnyMO6S4Be1BSW01IxhowvNt7VPPTvA?e=l7Jvos)
+## Дополнительные материалы
 
-## Legal Status and License
+- **Справочник по художественным стилям и жанрам** — объяснения на простом, понятном языке.
+- **Палитра цветов** — набор базовых цветов и их оттенков (они описаны через **ощущения**, **запахи**, **тактильные ассоциации** и **эмоции**, которые могут вызывать).
 
-Most tiflo-commentaries are taken from **open sources**, mainly museum and cultural institution websites involved in digital accessibility projects. Texts are not always fully reworked and not all original materials have open licenses. Therefore:
+## Цель
 
-**The author cannot grant an open license for the entire dataset.** The dataset is distributed **for non-commercial research and academic purposes only**.
-
-> ⚠️ Use of the dataset in commercial products or open-license projects requires additional source verification and legal clearance.
-
-## Contact
-
-For questions, clarifications about specific entries, or collaboration proposals:
-
-**Telegram:** [@satanqr](https://t.me/satanqr)
+Целью создания датасета является поддержка исследований и разработок в области **инклюзивных технологий**, **визуального описания для незрячих и слабовидящих людей**, а также обучение моделей генерации **интерпретативных описаний** визуального искусства.
